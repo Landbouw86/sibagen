@@ -1,0 +1,17 @@
+/* Required for Image Preview plugin */
+.filepond--image-preview {
+    height: 200px;
+}
+
+/* Required for PDF Preview plugin */
+.filepond--file-preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    color: #ccc;
+}
+
+.filepond--file-preview.filepond--file-preview-pdf .filepond--file-preview-status {
+    display: none;
+}
